@@ -25,7 +25,7 @@ public:
                 }
                   if(digit == 2 || digit == 5 || digit == 6 || digit == 9){
                     changed = true;}
-                 rev= 10*rev +mp[digit];
+                 
             }
             
             if(count&&changed){
