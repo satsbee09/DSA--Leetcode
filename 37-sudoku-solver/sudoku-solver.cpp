@@ -1,7 +1,7 @@
 class Solution {
   public:  bool issafe(int row,int col,int dig,vector<vector<char>>& board){
         for(int i=0;i<9;i++){
-            if(board[i][col]==dig + '0'){
+            if(board[i][col]==dig+'0'){
                 return false;
             }
         }
